@@ -1,0 +1,81 @@
+/* Background and base styling */
+body {
+  background: linear-gradient(6deg, rgba(230, 230, 230, 1) 13%, rgba(105, 97, 165, 1) 46%, rgba(29, 23, 23, 1) 80%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin-left : 0  auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.btn-home {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background:(#000000,);
+  border: none;
+  border-radius: 2px;
+  
+}
+.logo {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  margin-right: 5px;
+  font-size: 28px;
+}
+
+
+/* QR Code Section */
+.restaurant-name {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.qr-image {
+  border: 2px solid #000000;
+  box-shadow: 0 2px 5px rgba(0, 1, 5, 0.8);
+  margin-top: 15px;
+}
+
+.thank-you-text {
+  color: #000000;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Responsive Navbar for Mobile */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
