@@ -108,10 +108,7 @@ http://127.0.0.1:8000/
 🧑‍💻 Author
 
 Kunal Thakur
-📍 Built with ❤️ using Django
-🌐 Your Portfolio Link
- | 🐙 GitHub
- | 💼 LinkedIn
+📍 Built with ❤️ using DjanGO
 
 📜 License
 
